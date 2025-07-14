@@ -1,7 +1,7 @@
 <?php
 // index.php - Main entry point
 session_start();
-require_once 'config.php';
+require_once 'config/config.php';
 
 // Check if user is logged in
 $isLoggedIn = isset($_SESSION['user_id']);

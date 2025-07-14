@@ -1,7 +1,7 @@
 <?php
 // compare-pro.php - Advanced comparison tool for couples
 session_start();
-require_once 'config-pro.php';
+require_once 'config/config-pro.php';
 
 if (!isset($_SESSION['user_id'])) {
     header('Location: index.php');

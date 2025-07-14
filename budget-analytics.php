@@ -1,7 +1,7 @@
 <?php
 // budget-analytics.php - Advanced budget tracking and analytics
 session_start();
-require_once 'config-pro.php';
+require_once 'config/config-pro.php';
 
 if (!isset($_SESSION['user_id'])) {
     header('Location: index.php');
